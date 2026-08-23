@@ -39,7 +39,7 @@ const movies=["Lord of the Rings", "Star Wars", "Dune", "Batman"]
     <p> _ </p>
   </div>
 
-  <div class="border1">
+  <div>
   <ul>
     <h2 class = "name">Habilidades</h2>
     <li><p class="highlight">Programación en Java</p></li>
@@ -54,17 +54,17 @@ const movies=["Lord of the Rings", "Star Wars", "Dune", "Batman"]
   </div>
   
   <div class="border1">
-  <ul>
+  <ol>
     <h2 class = "name">Cosas favoritas</h2>
     <li><p class="highlight">Videojuegos</p></li>
     <li><p class="highlight">Perros</p></li>
     <li><p class="highlight">Entrenar</p></li> 
     <li><p class="highlight">Anime</p></li> 
-  </ul>
+  </ol>
   <img src="https://i.redd.it/i-really-miss-the-sonic-artwork-from-the-2000s-v0-z8zjdhz2tzbf1.png?width=704&format=png&auto=webp&s=357d219e6582230070be3ed5c316e29378022ad7" width="20%" height="20%"/>
   </div>
 
-  <div class="border1">
+  <div>
   <h2 class="name">Idiomas</h2>
     <p class="color4">Inglés: </p>
     <p class="highlight">Nivel alto para escuchar, leer y nivel intermedio para hablar</p>
