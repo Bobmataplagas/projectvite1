@@ -17,6 +17,7 @@ const movies=["Lord of the Rings", "Star Wars", "Dune", "Batman"]
   <div class="border1">
   <h1 class="title" :class="myCondition ? 'highlight' : 'name'">Desarrollo profesional</h1>
     <h3 class="myCondition title">Alejandro Burgos Rodríguez</h3>
+    <img src="https://instagram.fmid2-1.fna.fbcdn.net/v/t51.2885-19/447291622_1649577125794714_2779345369607117205_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=103&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDIxLkMzIn0%3D&_nc_ohc=6zGIOzOewt0Q7kNvwE_9qbZ&_nc_oc=Adq3Lg3jqftHSIfAUAB5-2EOOLEvEWO0l9nCIuMJaPFdrJ0y2mmUfIYCQPvdeFzXAEoCLvSrq3crTPo12C8H-691&_nc_zt=24&_nc_ht=instagram.fmid2-1.fna&_nc_ss=7b6a8&oh=00_AQG-bjhV7o-MUVxsaw4XJ7hQQ3UiGzzCmnv3jfbfe_hAdA&oe=6A913AC7" width="15%" height="15%"/>
   </div>
 
   <div>
@@ -48,10 +49,21 @@ const movies=["Lord of the Rings", "Star Wars", "Dune", "Batman"]
     <li><p class="highlight">Trabajo en equipo</p></li> 
     <li><p class="highlight">Paquetería de Office (Word, Excel, PowerPoint)</p></li> 
     <li><p class="highlight">Diseño de interfaz y experiencia de usuario</p></li> 
-    <p> _ </p>
   </ul>
+  <img src="https://preview.redd.it/ryan-beckford-black-hackerman-matrix-hack-meme-hd-template-v0-jbcj0uqbihg41.jpg?width=1080&crop=smart&auto=webp&s=1f1fdd3babf829ca1b2805ebe9137c599ca4347a" width="15%" height="15%"/>
   </div>
   
+  <div class="border1">
+  <ul>
+    <h2 class = "name">Cosas favoritas</h2>
+    <li><p class="highlight">Videojuegos</p></li>
+    <li><p class="highlight">Perros</p></li>
+    <li><p class="highlight">Entrenar</p></li> 
+    <li><p class="highlight">Anime</p></li> 
+  </ul>
+  <img src="https://i.redd.it/i-really-miss-the-sonic-artwork-from-the-2000s-v0-z8zjdhz2tzbf1.png?width=704&format=png&auto=webp&s=357d219e6582230070be3ed5c316e29378022ad7" width="20%" height="20%"/>
+  </div>
+
   <div class="border1">
   <h2 class="name">Idiomas</h2>
     <p class="color4">Inglés: </p>
