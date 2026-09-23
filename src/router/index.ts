@@ -25,8 +25,8 @@ const routes = [
   { path: '/headerComponent', name: 'headerComponent', component: HeaderComponent},
   { path: '/usovbind', nmae: 'usovbind', component: usovbind},
   { path: '/arreglomovie', name: 'arreglomovie', component: arreglomovie},
-  { path: '/importacion', name: 'importacion', component: importacionComponent},
-  { path: '/promesas', name: 'promesas', component: promesas}
+  { path: '/importacion', name: 'importacion', component: ()=> import('../components/importacionComponent.vue')},
+  { path: '/promesas', name: 'promesas', component: ()=> import('../components/promesas.vue')}
 ]
 
 const router = createRouter({
