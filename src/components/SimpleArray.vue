@@ -1,11 +1,12 @@
 <template>
-    <div v-for="pelicula in peliculas" :key="pelicula.id">
+    <div class="text-center">
+      <div v-for="pelicula in peliculas" :key="pelicula.id">
         {{ pelicula.title }} ({{ pelicula.year }})
-    </div><br><br>
+      </div>
+    </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
 // Definimos la interface
 interface Movie {
   id: number,

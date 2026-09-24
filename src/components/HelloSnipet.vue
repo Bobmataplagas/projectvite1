@@ -1,0 +1,11 @@
+<script setup lang="ts">
+</script>
+
+<template>
+  <div class="text-center">
+    <h2>Bienvenido a HelloSnippet</h2>
+  </div>
+</template>
+
+<style scoped>
+</style>

@@ -1,5 +1,5 @@
 <template>
-<div>Bienvenido a About</div>
+<div class="text-center">Bienvenido a About</div>
 </template>
 
 <script lang="ts" setup>

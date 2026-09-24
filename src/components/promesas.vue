@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+    <div class="text-center"><strong>Se ha cumplido la promesa</strong></div>
 </template>
 
 <script setup lang="ts">

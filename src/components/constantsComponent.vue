@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="text-center">
         <h3>{{ alumno.lastName }}</h3>
         <h4>El profesor es: {{  profesor.lastName  }}</h4>
     </div>

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
-import childrenComponent from './childrenComponent.vue'
+import childrenComponent from './childComponent.vue'
 const mensaje=ref("Hola desde el padre")
 const mensaje2=ref("Ejemplo de parámetro del padre al hijo")
 const mensaje3=ref('')
@@ -21,12 +21,15 @@ function mensajaDesdeHijo(valor: string){
 </script>
 
 <template>
+<div class="text-center">
 <p>Total: {{ total }}</p>
 <p>El valor del mensaje del hijo es: {{ mensaje3 }}</p>
 <p>El valor de mensaje en el segundo método es: {{  mensaje4 }}</p>
 <!-- Pasamos los parámetros usando bind -->
 <!-- incrementar interfiere como la función que se va a ejecutar dentro del hijo, es como si dicho parámetro sea el punto intermedio de comunicación entre el padre y el hijo -->
 <childrenComponent :titulo="mensaje" :contador="numero" :mensaje2="mensaje2" @incrementar="sumarAlTotal" @resetear="mensajaDesdeHijo" @texto=""/>
+
+</div>
 
 </template>
 
