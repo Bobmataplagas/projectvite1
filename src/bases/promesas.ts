@@ -1,6 +1,6 @@
 // console.log('Inicio');
 
-import type { Hero } from "../data/heroes";
+import type { Hero } from "../datos/heroes";
 import { getHeroById } from "./imp-exp";
 
 // getHeroById es una función exportada
@@ -15,7 +15,7 @@ const getHeoByIdAsync=(id: number): Promise<Hero> =>{
                 reject(`Héroe no encontrado #${ id }`)
             }*/
            // Utilizando un operador ternario
-           hero ? resolve(hero) : reject(`Héroe no encontrado #${ id }`);
+           hero ? resolve(hero as Hero) : reject(`Héroe no encontrado #${ id }`);
         },1500);
     })
 }

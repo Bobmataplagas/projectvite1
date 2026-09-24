@@ -2,7 +2,7 @@
 import { reactive } from 'vue' 
 const usuario= reactive({
     name: 'Alejandro',
-    lastName: 'Góngora'
+    lastName: 'Burgos'
 })
 
 const numberArray=[1,2,3,4,5]
@@ -19,7 +19,7 @@ numberArrayAge2.push(43)
 
 console.log({numberArrayAge2})
 
-const numberxStringArray:(number|string)[]=[12, 'Alex', 30, 'Góngora']
+const numberxStringArray:(number|string)[]=[12, 'Alejandro', 30, 'Burgos']
 
 console.log({numberxStringArray})
 console.log(numberxStringArray[2].toString())
@@ -27,7 +27,7 @@ console.log(numberxStringArray[2].toString())
 </script>
 
 <template>
-<div>Los datos del usuario son: {{  usuario.name }}</div>
+<div class="text-center">Los datos del usuario son: {{  usuario.name }}</div>
 </template>
 
 

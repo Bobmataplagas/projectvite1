@@ -1,4 +1,4 @@
-import heroes, { type Owner } from "../data/heroes";
+import heroes, { type Owner } from "../datos/heroes";
 /*
 Después del import podemos agregar una palabra que haga referencia a todo el contenido que se pretende importar, en el caso de este código el nombre de heroes va a tomar todo lo que se encuentre dentro del archivo heroes
 */

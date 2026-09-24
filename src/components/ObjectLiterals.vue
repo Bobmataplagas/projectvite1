@@ -31,8 +31,10 @@ contador.value=15
 </script>
 
 <template>
-    <h4>El valor del apellido es: {{  getApellido('Escalante') }}</h4>
-    <h5>El valor del contador es {{ contador }}</h5>
+    <div class="text-center">
+        <h4>El valor del apellido es: {{  getApellido('Escalante') }}</h4>
+        <h5>El valor del contador es {{ contador }}</h5>
+    </div>
 </template>
 
 <style scope>

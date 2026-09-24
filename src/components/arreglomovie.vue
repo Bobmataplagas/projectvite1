@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="text-center">
     <p v-for="movie in movies" :key="movie">
       {{ movie }}
     </p>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="text-center">
         <h1 class="title" v-bind:class="myCondition ? 'highlight':'red'">Hola a todos</h1>
         <h1 class="title" :class="myCondition ? 'highlight':'red'">Hola a todos</h1>
         <h2 @click="addOne" :id="myId">El valor de la variable number es: {{ number }}</h2>
